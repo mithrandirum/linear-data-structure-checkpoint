@@ -36,6 +36,8 @@ img {
     height: 110px;
     margin-top: 10px;
     border-radius: 5px;
+    border-width:5px;  
+    border-style:ridge;
 }
 .item-name{
     margin-top: 8vh;
