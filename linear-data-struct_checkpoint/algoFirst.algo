@@ -1,0 +1,30 @@
+ALGORITHM  spellChecker
+VAR
+   sentance : STRING := "all the world seem to crumble under its pressure." 
+   vowels : = STRING := "aeiouy"
+
+   wordCount ,vowelsCount, S_length, i := INTEGER
+  
+
+BEGIN
+   FOR i FROM 0 TO sentance.length STEP 1 DO
+      
+    
+ S_length = sentance[i].length
+
+ vowelsCount = 0
+
+ IF (sentance[i] = vowels[i]) THEN
+     
+     vowelsCount += 1
+ END_IF
+
+wordCount = 1
+
+ IF (sentance[i] = " ") THEN
+     wordCount += 1
+ END_IF
+
+
+   END_FOR
+END
